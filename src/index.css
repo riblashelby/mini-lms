@@ -529,3 +529,25 @@ textarea {
   .modal { padding: 20px; }
   .data-table { font-size: 13px; }
 }
+
+[data-theme="dark"] {
+  --bg: #0f1115;
+  --surface: #171a21;
+  --border: #2a2f3a;
+
+  --text: #f3f4f6;
+  --text-muted: #9ca3af;
+
+  --accent: #4f8a68;
+  --accent-light: #1d2c24;
+  --accent-hover: #5b9b76;
+
+  --danger: #ef4444;
+  --danger-light: #2b1717;
+
+  --warning: #f59e0b;
+  --warning-light: #2a2212;
+
+  --shadow: none;
+  --shadow-md: none;
+}
