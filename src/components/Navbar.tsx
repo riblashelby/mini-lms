@@ -33,14 +33,9 @@ const toggleTheme = () => {
     localStorage.setItem('theme', 'dark')
   }
 }
-const toggleTheme = () => {
-  const current = document.documentElement.dataset.theme
-
-  if (current === 'dark') {
-    document.documentElement.dataset.theme = 'light'
-    localStorage.setItem('theme', 'light')
-  } else {
-    document.documentElement.dataset.theme = 'dark'
-    localStorage.setItem('theme', 'dark')
-  }
-}
+<button
+  className="btn btn-secondary btn-sm"
+  onClick={toggleTheme}
+>
+  🌙
+</button>
