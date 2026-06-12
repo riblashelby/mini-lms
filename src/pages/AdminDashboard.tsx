@@ -87,7 +87,6 @@ export function AdminDashboard() {
     }
   }
 
-  const selectedStudent = students.find((s) => s.id === selectedStudentId)
   const today = new Date().toISOString().split('T')[0]
 
   return (
